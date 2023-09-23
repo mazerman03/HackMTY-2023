@@ -5,7 +5,7 @@
 # pip install llama_index
 
 import os 
-os.environ["OPEN_API_KEY"] = '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'
+os.environ["OPEN_API_KEY"] = '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'
 
 from llama_index import GPTVectorStoreIndex, SimpleDirectoryReader
 documents = SimpleDirectoryReader('AQUI VA LA KNOWLEDGE BASE ').load_data()
