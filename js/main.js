@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
       var messageText = messageInput.value;
       if (messageText.trim() !== "") {
         messages.push("You: " + messageText);
-        messageInput.value = "";
+        messageInput.value = ""; //Pregunta determinada
         displayMessages();
       }
     }

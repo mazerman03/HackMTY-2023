@@ -12,7 +12,7 @@
         <link rel="icon" href="./img/logo-light-mode.svg" type="image/icon type" id="logo-theme">
         <script src="./js/main.js"></script>
         <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
-        <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+        <script defer type="module" src="https://pyscript.net/latest/pyscript.js"></script>
       </head>
 <body>
     <!-- Header -->
@@ -186,12 +186,12 @@
           <div class="col s12 m8 l6 offset-m6">
               <div class="card chat-fixed hidden-chat">
                   <div class="card-content">
-                      <span class="card-title center"><img src="./img/Logo-negro.png" alt="" width="100px"><br>BenIA</span>
+                      <span class="card-title center"><img src="./img/logo-final-IA.png" alt="" width="75px"><br>BenIA</span>
                       <ul class="collection" id="chat-messages">
                         <!-- MENSAJES -->
-                        <!-- <py-script src="./holamundo.py">
-
-                        </py-script> -->
+                        <div class="output" id="output">
+                          <script type="py" src="./holamundo.py"></script>
+                        </div>
                       </ul>
                   </div>
                   <div class="card-action">
@@ -209,7 +209,8 @@
   <!-- BOTÓN FIJO -->
   <div class="fixed-action-btn">
     <button class="btn-floating btn-large waves-effect red darken-2" id="toggle-chat">
-        <i class="fa-solid fa-globe"></i>
+        <!-- <i class="fa-solid fa-globe"></i> -->
+        <img src="./img/logo-final-IA.png" alt="" width="50px" class="center responsive-img circle">
     </button>
 </div>
 
