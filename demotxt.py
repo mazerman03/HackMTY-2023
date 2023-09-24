@@ -121,21 +121,26 @@ input_box.on_submit(on_submit)
 
 display(input_box) """
 
-from flask import Flask, request, jsonify
+ffrom flask import Flask, render_template, request
 
 app = Flask(__name__)
 
-# Load your existing code here (import libraries, process text, and set up ChatGPT)
+# Your chatbot code here
+def generate_chat_response(user_input):
+    # Replace this with your chatbot logic to generate a response based on user_input
+    # Example:
+    chatbot_response = f"You asked: {user_input}. This is a sample response."
+    return chatbot_response
+
+@app.route('/')
+def index():
+    return render_template('index.html')
 
 @app.route('/chat', methods=['POST'])
 def chat():
-    user_message = request.json.get('message')
-
-    # Process user_message and get chatbot response using your existing code
-    # Replace the following line with your logic
-    chatbot_response = response
-
-    return jsonify({'response': chatbot_response})
+    user_input = request.form['user_input']
+    chatbot_response = generate_chat_response(user_input)
+    return render_template('index.html', user_input=user_input, chatbot_response=chatbot_response)
 
 if __name__ == '__main__':
     app.run(debug=True)
