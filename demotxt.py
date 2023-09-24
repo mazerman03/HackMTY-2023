@@ -121,7 +121,7 @@ input_box.on_submit(on_submit)
 
 display(input_box) """
 
-ffrom flask import Flask, render_template, request
+from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
