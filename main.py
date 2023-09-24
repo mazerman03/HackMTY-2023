@@ -37,7 +37,7 @@ def count_tokens(text: str) -> int:
 text_splitter = RecursiveCharacterTextSplitter(
     # Set a really small chunk size, just to show.
     chunk_size = 512,
-    chunk_overlap  = 24,
+    chunk_overlap  = 48,
     length_function = count_tokens,
 )
 
@@ -121,7 +121,12 @@ input_box.on_submit(on_submit)
 
 display(input_box) """
 
-from flask import Flask, render_template, request
+
+# ----------------------------------
+#   POSSIBLE FLASK IMPLEMENTATION
+# ----------------------------------
+
+""" from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
@@ -143,4 +148,4 @@ def chat():
     return render_template('index.html', user_input=user_input, chatbot_response=chatbot_response)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True) """
