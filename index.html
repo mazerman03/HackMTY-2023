@@ -11,6 +11,8 @@
         <title> HackMty</title>
         <link rel="icon" href="./img/logo-light-mode.svg" type="image/icon type" id="logo-theme">
         <script src="./js/main.js"></script>
+        <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+        <script defer src="https://pyscript.net/latest/pyscript.js"></script>
       </head>
 <body>
     <!-- Header -->
@@ -186,7 +188,7 @@
                   <div class="card-content">
                       <span class="card-title center"><img src="./img/Logo-negro.png" alt="" width="100px"><br>BenIA</span>
                       <ul class="collection" id="chat-messages">
-                          <!-- MENSAJES -->
+                        <!-- MENSAJES -->
                       </ul>
                   </div>
                   <div class="card-action">
@@ -255,31 +257,6 @@
     </div>
   </div>
 </div> 
-
-
-
-<script>
-  var chatElement = document.querySelector('.card');
-
-  //Mostrar el chat
-  function showChat() {
-      chatElement.classList.remove('hidden-chat');
-  }
-
-  //Ocultar el chat
-  function hideChat() {
-      chatElement.classList.add('hidden-chat');
-  }
-
-  //Clic abrir/ocultar
-  document.getElementById('toggle-chat').addEventListener('click', function () {
-      if (chatElement.classList.contains('hidden-chat')) {
-          showChat();
-      } else {
-          hideChat();
-      }
-  });
-</script>
 
  <!-- jQuery -->
  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
