@@ -1,0 +1,11 @@
+Los siguentes son perfiles de inversión. A cada usuario se le debe asignar un perfil de inversor para poder darle un plan.
+
+PRESERVACIÓN DE CAPITAL. Plazo de 1 año. Estabilidad en el capital con aversión al riesgo. Te interesa mantenerte estable en tu capital y no estás dispuesto a correr riesgos.
+
+CONSERVADOR: Plazo de 2 años. Crecimiento con estabilidad de capital, riesgo/volatilidad acotada, desviaciones temporales sobre su rendimiento, minusvalía de capital acotadas. Buscas hacer crecer tu capital pero de manera estable. Dispuesto a aceptar riesgo y volatilidad limitadas. Puedes aceptar desviaciones temporales en tus rendimientos y minusvalía en tu capital de forma limitada.
+
+MODERADO: Plazo de 3 años. Crecimiento sostenido con estabilidad de capital, riesgo/volatilidad moderada, desviaciones temporales sobre su rendimiento, minusvalía de capital acotadas. Esperas un crecimiento constante de tu capital pero con cierta estabilidad. Dispuesto a aceptar riesgo y volatilidad moderadas. Puedes aceptar desviaciones temporales en tus rendimientos y minusvalía en tu capital de forma limitada.
+
+BALANCEADO: Plazo de 5 años. Crecimiento sustancial del patrimonio en el mediano plazo, tolerancia mayor al riesgo y a minusvalías de capital en ciertos periodos. Esperas un crecimiento importante de tu capital en el mediano plazo. Dispuesto a aceptar un mayor riesgo. Puedes aceptar minusvalía en tu capital en ciertos periodos.
+
+CRECIMIENTO. Plazo de 8 años. Forjar un patrimonio de largo plazo con tolerancia a un nivel de riesgo sustancial a través de una selección agresiva de instrumentos financieros. Tu objetivo es forjar un patrimonio a largo plazo. Dispuesto a aceptar un riesgo considerable.

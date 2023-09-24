@@ -55,6 +55,8 @@ Si te gustaría profesionalizar tus conocimientos sobre inversiones o incluso co
 Nuestra Maestría en Finanzas es un programa que busca ayudarte a perfeccionar tu dominio en materia de banca, finanzas corporativas y mercados bursátiles a través de aprendizaje práctico con talleres y análisis de casos prácticos y teóricos. Entre los diversos beneficios de este programa también encontrarás exclusivas oportunidades de aprendizaje dentro y fuera de México. 
 
 Para más información ponte en contacto con nuestro equipo de admisiones para que con la guía de nuestra facultad de profesores, líderes y especialistas activos en la industria amplíes tus conocimientos sobre cómo funcionan los fondos de inversión y te conviertas en el próximo experto del sector financiero. 
+
+
 Un fondo de inversión es una alternativa de inversión administrada por expertos, que con el dinero que recibe de los inversionistas, forma un portafolio de inversión integrado por diferentes valores (cetes, bonos, acciones, etc) con el objetivo de generar rendimientos atractivos con base al horizonte y objetivos definidos para el mismo.
 
 ¿Cuáles son las ventajas de invertir en fondos de inversión?
@@ -76,6 +78,8 @@ Tengo que ser experto en inversiones. Al invertir en fondos tu dinero es manejad
 Es igual que invertir en acciones en la bolsa. Los fondos de inversión pueden invertir en diferentes instrumentos. Existen diferentes fondos de inversión disponibles tanto de deuda como de renta variable.
 Riesgos asociados
 Toda inversión implica un riesgo. No olvides que a mayor riesgo mayor posibilidad de un mayor rendimiento y con ello también mayor horizonte de inversión sugerido. Tu perfil de inversionista debe estar alineado al riesgo de tus inversiones.
+
+
 ¿Qué es un fondo de inversión?
 
 Un fondo de inversión es un tipo de inversión en conjunto que te permite ingresar a un portafolio de valores como acciones o bonos en el mercado nacional e internacional.
@@ -102,9 +106,13 @@ Largo plazo: Tienen un horizonte de varios años, y están diseñados para grand
 ¿Cuál es el fondo de inversión más rentable?
 El fondo de inversión más rentable es el de mayor plazo ya que al final puedes tener mayores ganancias debido a que tu inversión puede ir aumentando precisamente por el rendimiento que vas generando con los años. 
 Sin embargo una vez que comienzas a invertir, lo ideal es diversificar tu inversión, es decir poner tus ahorros en distintos fondos y no solo en fondos de inversión, sino también considerar otros mecanismos como cedes o divisas, entre otros. De esta manera puedes ir experimentando con distintos niveles de plazo, riesgo y rendimiento. 
+
+
 En México existen muchos bancos muy competitivos, y no hay ninguno mejor que otro, pero Banorte ofrece servicios muy innovadores como asistencia con inteligencia articial para sus clientes, esa podría ser una buena opción si no se tiene mucha experiencia. Recomendaría investigar más a profundidad para conocer la mejor opción para cada caso particular.
 Banorte ofrece planes personalizados de inversión para sus clientes, desde aquellos que empiezan su inmersión en el mundo de las inversiones, hasta los más experimentados.
 ¿Quién eres? Soy BenIA, tu coach personal de inversiones en Banorte.
+
+
 Beneficios
 Al adquirir Fondos de Inversión Banorte podrá: Convertirse en inversionista. Tendrá acceso a instrumentos que en conjunto con la estrategia buscan ofrecer mejores rendimientos al reunir el capital de distintos inversionistas. Beneficiarse de inversiones administradas por expertos. Diversificación en las inversiones de la manera más fácil. Minimizan el riesgo al invertir en una canasta administrada de instrumentos con diferentes características. Se tendrá acceso a tus inversiones por medios digitales.
 
@@ -142,4 +150,46 @@ Asimismo, el rendimiento de gestión de un fondo de inversión no necesariamente
 Los fondos de inversión en instrumentos de deuda por disposiciones legales deben de estar calificados. La calificación implica que una empresa especialista en esta actividad y ajena al fondo de inversión revisa y otorga una opinión respecto de los riesgos crediticios y de mercado de cada fondo, de acuerdo a la clasificación a la que pertenece.
 Las principales empresas calificadoras son Standard & Poors, Fitch y Moodys. Con base en la escala homogénea establecida por la Comisión Nacional Bancaria y de Valores CNBV, la empresa calificadora otorga una calificación, la cual define el riesgo de crédito y de mercado de los papeles que conforman la cartera del fondo. La calificación está compuesta por letras y números, donde las letras definen el riesgo de crédito y los números el riesgo de mercado. Estas calificaciones no representan recomendaciones de compra o venta. Sin embargo, usualmente son consideradas por los inversionistas en el momento de invertir en títulos de deuda y para estimar el rendimiento del fondo en el largo plazo en función del nivel de riesgo percibido correspondiente a su calificación.
 La calificación AAA es la mejor calificación en riesgo de crédito y B la más baja. El número 1 es la mejor calificación en riesgo de mercado y 7 la más baja, por lo que la mejor calificación es un AAA/1 y la peor B/7 —pueden existir todas las combinaciones posibles entre riesgo de crédito y de mercado de acuerdo a la tabla de calificaciones crediticias—.
+
+¿Cómo puedo tramitar un fondo de inversión? 
+Puedes tramitar un fondo de inversión a través de la banca digital Banorte o Banorte Movil.
+
+
+Los siguentes son perfiles de inversión. A cada usuario se le debe asignar un perfil de inversor para poder darle un plan.
+
+PRESERVACIÓN DE CAPITAL. Plazo de 1 año. Estabilidad en el capital con aversión al riesgo. Te interesa mantenerte estable en tu capital y no estás dispuesto a correr riesgos.
+
+CONSERVADOR: Plazo de 2 años. Crecimiento con estabilidad de capital, riesgo/volatilidad acotada, desviaciones temporales sobre su rendimiento, minusvalía de capital acotadas. Buscas hacer crecer tu capital pero de manera estable. Dispuesto a aceptar riesgo y volatilidad limitadas. Puedes aceptar desviaciones temporales en tus rendimientos y minusvalía en tu capital de forma limitada.
+
+MODERADO: Plazo de 3 años. Crecimiento sostenido con estabilidad de capital, riesgo/volatilidad moderada, desviaciones temporales sobre su rendimiento, minusvalía de capital acotadas. Esperas un crecimiento constante de tu capital pero con cierta estabilidad. Dispuesto a aceptar riesgo y volatilidad moderadas. Puedes aceptar desviaciones temporales en tus rendimientos y minusvalía en tu capital de forma limitada.
+
+BALANCEADO: Plazo de 5 años. Crecimiento sustancial del patrimonio en el mediano plazo, tolerancia mayor al riesgo y a minusvalías de capital en ciertos periodos. Esperas un crecimiento importante de tu capital en el mediano plazo. Dispuesto a aceptar un mayor riesgo. Puedes aceptar minusvalía en tu capital en ciertos periodos.
+
+CRECIMIENTO. Plazo de 8 años. Forjar un patrimonio de largo plazo con tolerancia a un nivel de riesgo sustancial a través de una selección agresiva de instrumentos financieros. Tu objetivo es forjar un patrimonio a largo plazo. Dispuesto a aceptar un riesgo considerable.
+
+
+Los fondos de inversión que ofrece Banorte son:
+
+NTEDIG: Alta Liquidez Digital. Es un fondo de deuda, es decir, que opera completamente en línea y por sus comisiones preferenciales te permitirá obtener un rendimiento adicional a tus ahorros, sin permanencia mínima y con la liquidez inmediata que necesitas. El riesgo es extremadamente bajo. Dirigido a inversionistas que buscan hacer crecer sus ahorros de una forma totalmente digital. Ideal para el perfil de Preservación de Capital que mantiene estable su capital sin correr riesgos.
+
+NTECT: Alta Liquidez Pesos. Este fondo está conformado por una mezcla de valores de deuda gubernamental y bancaria que te permitirán obtener un rendimiento adicional a tus ahorros. Es un fondo a corto plazo, sin permanencia mínima. Tiene una calificación de AAA-1. Puede tramitarse en un solo día.
+
+NTEPZO: Fuerte. Te permitirá proteger tu capital y conocer tu rendimiento desde el inicio de la inversión, cuenta con una permanencia mínima de 91 días, así como una inversión mínima de $50 mil pesos. El riesgo es extremadamente bajo. Está dirigido a inversionistas que buscan obtener un premio adicional por su permanencia. Ideal para el perfil de Preservación de Capital que mantiene estable su capital sin correr riesgos.
+
+NTED: Estratégico Renta Fija. Es un fondo de Deuda. Cuenta con una estrategia relativamente conservadora de selección de activos que te permite preservar y mejorar tu patrimonio. El riesgo es moderado. Dirigido a inversionistas que buscan un rendimiento superior a la deuda gubernamental. Ideal para el perfil Conservador que busca hacer crecer su capital de manera estable, con cierto riesgo y volatilidad acotada. Acepta desviaciones temporales en rendimientos y una minusvalía en el capital de forma limitada. Es un fondo 100% de deuda con un horizonte de inversión a mediano plazo compuesto por Fondos de deuda gubernamental nacional, internacional y corporativa, todos administrados por la Operadora de Fondos Banorte.
+
+NTE1: Portafolio Básico. Fondo de Estrategia Discrecional. Cuenta con una menor exposición a la Renta Variable como las acciones y los ETFs Exchange Traded Funds, y una mayor exposición a Deuda. Riesgo moderado a alto. Dirigido a inversionistas con una limitada tolerancia al riesgo, que buscan diversificar y hacer crecer sus inversiones. Ideal para el perfil Conservador que busca hacer crecer su capital de manera estable, con cierto riesgo y volatilidad limitada. Acepta desviaciones temporales en rendimientos y una minusvalía en el capital de forma limitada. Invierte alrededor del 80% de los activos de su cartera en instrumentos de Deuda, y el 20% en instrumentos de Renta Variable. Los valores podrán estar invertidos en mercados locales e internacionales. Obtendrás mayores rendimientos con un horizonte de inversión a largo plazo. La exposición por tipo de activo del Fondo puede llegar a variar.
+
+NTE2: Portafolio Equilibrado. Fondo de Estrategia Discrecional. Cuenta con un balance dentro de la composición de su cartera, manteniendo mayor exposición en valores de Deuda y menor en Renta Variable como las acciones y los ETFs Exchange Traded Funds. Riesgo alto. Dirigida a inversionistas con una tolerancia moderada al riesgo que buscan diversificar y hacer crecer sus inversiones. Ideal para el perfil Moderado que busca un crecimiento constante de capital con cierta estabilidad. Dispuesto a aceptar riesgo y volatilidad moderadas, con desviaciones temporales en rendimientos y una minusvalía en el capital de forma limitada. Invierte alrededor del 60% de los activos de su cartera en instrumentos de Deuda, y el 40% en instrumentos de Renta Variable. Los valores podrán estar invertidos en mercados locales e internacionales. Obtendrás mayores rendimientos con un horizonte de inversión a largo plazo.
+
+NTE3: Portafolio Crecimiento. Fondo de Estrategia Discrecional. Invertirá los valores con una mayor exposición en instrumentos de Renta Variable como las acciones y los ETFs Exchange Traded Funds, y en menor proporción en instrumentos de Deuda. Riesgo alto. Dirigido a inversionistas con alta tolerancia al riesgo que buscan diversificar sus inversiones para obtener mayores rendimientos. Ideal para el perfil Balanceado que busca un crecimiento importante de capital en el largo plazo. Dispuesto a aceptar un mayor riesgo y una minusvalía en el capital durante ciertos periodos. Invierte alrededor del 40% de los activos de su cartera en instrumentos de Deuda, y el 60% en instrumentos de Renta Variable. Los valores podran estar invertidos en mercados locales e internacionales. Obtendrás mayores rendimientos con un horizonte de inversión a largo plazo.
+
+NTEDLS: Líquido Dólares. Fondo de Cobertura. Te permitirá respaldar el valor de tu  dinero ante las fluctuaciones del tipo de  cambio peso-dólar. El riesgo en bajo. Dirigido a inversionistas que buscan estabilidad y un mejor resguardo del valor del peso respecto al dólar USD. Ideal para el perfil de Preservación de Capital que mantiene estable su capital sin correr riesgos. Es un fondo conformado principalmente por activos de deuda con la mejor calidad crediticia AAA denominados, indizados y o referenciados al dólar.
+
+NTEDLS+: Estratégico Dólares. Fondo de Renta Variable en Dólares. Te permitirá acceder a una estrategia de cobertura cambiaria, peso – dólar, con un rendimiento adicional. Es de riesgo moderado. Dirigido a inversionistas que buscan una inversión internacional. Ideal para el perfil Conservador que busca hacer crecer su capital de manera estable, con cierto riesgo y volatilidad acotada. Acepta desviaciones temporales en rendimientos y una minusvalía en el capital de forma limitada. Es un fondo conformado principalmente por activos denominados en dólares
+
+NTEIPC+: Empresas México. Fondo de Renta Variable. Referenciado en la Bolsa Mexicana de Valores. El riesgo es muy alto. Dirigido a clientes que buscan invertir en la Bolsa Mexicana de Valores con una selección más agresiva en sus inversiones. Ideal para el perfil de Crecimiento cuyo objetivo es forjar un patrimonio a largo plazo, aceptando un riesgo considerable y minusvalías sustanciales. Invierte al menos 90% de su cartera en acciones de empresas enlistadas en las Bolsas de Valores y en menor proporción en instrumentos de Deuda Nacional e Internacional, permitiendo así obtener mayores rendimientos con un horizonte de inversión a largo plazo.
+
+NTEESG: Empresas Sustentables. Integra a las compañías con las mejores prácticas ESG —environmental, social and governance— a nivel mundial, con lo que busca entregar resultados superiores a su referencia de mercado. Banorte creó este fondo como parte de su compromiso con la sustentabilidad, y en línea con el creciente apetito del mercado por este tipo de inversiones. Este fondo tiene un horizonte de largo plazo por lo que la permanencia sugerida es de al menos tres años.
+
 
