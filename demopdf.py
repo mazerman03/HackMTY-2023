@@ -1,3 +1,7 @@
+# ---------------
+#    LIBRERIAS
+# ---------------
+
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -9,12 +13,18 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.llms import OpenAI
 from langchain.chains import ConversationalRetrievalChain
 
+# ---------------
+#     API KEY
+# ---------------
+
 os.environ["OPENAI_API_KEY"] = "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"
 
+# ---------------
+#     OPEN TXT
+# ---------------
+# Step 2: Save to .txt and reopen (helps prevent issues)
 
- #2: Save to .txt and reopen (helps prevent issues)
-
-with open('HackMTY-2023/datatxt/ComoFunciona.txt', 'r', encoding='utf-8') as f:
+with open('datatxt/compilation.txt', 'r', encoding='utf-8') as f:
     text = f.read()
 
 # Step 3: Create function to count tokens
@@ -57,35 +67,45 @@ embeddings = OpenAIEmbeddings()
 # Create vector database
 db = FAISS.from_documents(chunks, embeddings)
 
+
+# --------------------------
+#      INICIA EL CHATBOT
+# --------------------------
 # Check similarity search is working
-query = "¿Qué es una buena inversión?"
-print("User: ", query, "\n")
-docs = db.similarity_search(query)
-docs[0]
+print("BenIA: ¡Hola! Soy BenIA, tu coach personal de inversión, puedes hacerme preguntas, consultas y aprender de mí. ¿Cómo puedo ayudarte?")
 
-# Create QA chain to integrate similarity search with user queries (answer query from knowledge base)
 
-chain = load_qa_chain(OpenAI(temperature=0), chain_type="stuff")
+run = True
+while run:
+    query = input("User: ")
+    docs = db.similarity_search(query)
+    docs[0]
 
-query = "¿Qué es una buena inversión?"
-docs = db.similarity_search(query)
+    # Create QA chain to integrate similarity search with user queries (answer query from knowledge base)
 
-response = chain.run(input_documents=docs, question=query)
-print("BenIA: ",response)
-from IPython.display import display
-import ipywidgets as widgets
+    chain = load_qa_chain(OpenAI(temperature=0), chain_type="stuff")
+    response = chain.run(input_documents=docs, question=query)
+    print("BenIA: ",response)
+    from IPython.display import display
+    import ipywidgets as widgets
 
-# Create conversation chain that uses our vectordb as retriver, this also allows for chat history management
-qa = ConversationalRetrievalChain.from_llm(OpenAI(temperature=0.1), db.as_retriever())
+    # Create conversation chain that uses our vectordb as retriver, this also allows for chat history management
+    qa = ConversationalRetrievalChain.from_llm(OpenAI(temperature=0.1), db.as_retriever())
+
+    if "adiós" in query.lower() or "adios" in query.lower():
+        print(">> Gracias por consultar a BenIA, ¡nos vemos pronto!")
+        run = False
+        
 
 chat_history = []
 
+"""
 def on_submit(_):
     query = input_box.value
     input_box.value = ""
     
     if query.lower() == 'exit':
-        print("Thank you for using the State of the Union chatbot!")
+        print("Gracias por usar BenIA, nos vemos pronto!")
         return
     
     result = qa({"question": query, "chat_history": chat_history})
@@ -99,4 +119,4 @@ print("Welcome to the Transformers chatbot! Type 'exit' to stop.")
 input_box = widgets.Text(placeholder='Please enter your question:')
 input_box.on_submit(on_submit)
 
-display(input_box)
+display(input_box) """
