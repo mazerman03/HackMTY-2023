@@ -14,19 +14,23 @@ os.environ["OPENAI_API_KEY"] = "{sk-t9PqZXriXKIObCVuyAqvT3BlbkFJPIF9WeYsEsxRRJ5x
 
 # You MUST add your PDF to local files in this notebook (folder icon on left hand side of screen)
 
-# Advanced method - Split by chunk
+ # Advanced method - Split by chunk
 
 # Step 1: Convert PDF to text
 import textract
-doc = textract.process("fundInveriones.pdf", method = 'pdfminer')
+with open('HackMTY-2023/fundInversiones.txt', 'r', encoding='utf-8') as file:
+    # Read the contents of the file into a string
+    doc = file.read()
 
 # Step 2: Save to .txt and reopen (helps prevent issues)
-with open('fundInveriones.txt', 'w') as f:
-    f.write(doc.decode('utf-8'))
 
-with open('fundInveriones.txt', 'r') as f:
+##with open('HackMTY-2023/fundInversiones.txt', 'w') as f:
+  ##  f.write(doc.decode('utf-8'))
+
+with open('HackMTY-2023/fundInversiones.txt', 'r', encoding='utf-8') as f:
     text = f.read()
 
+print(text)
 # Step 3: Create function to count tokens
 tokenizer = GPT2TokenizerFast.from_pretrained("gpt2")
 
@@ -37,14 +41,21 @@ def count_tokens(text: str) -> int:
 text_splitter = RecursiveCharacterTextSplitter(
     # Set a really small chunk size, just to show.
     chunk_size = 512,
-    chunk_overlap  = 24,
+    chunk_overlap  = 12,
     length_function = count_tokens,
 )
-
-chunks = text_splitter.create_documents([text])
+try:
+    chunks = text_splitter.create_documents([text])
+    print("Number of chunks:", len(chunks))
+    if len(chunks) > 0:
+        print("Number of tokens in the first chunk:", len(tokenizer.encode(chunks[0].page_content)))
+    else:
+        print("No chunks created.")
+except IndexError as e:
+    print("An IndexError occurred:", e)
 
 # Result is many LangChain 'Documents' around 500 tokens or less (Recursive splitter sometimes allows more tokens to retain context)
-type(chunks[0]) 
+##type(chunks[0]) 
 
 # Quick data visualization to ensure chunking was successful
 
