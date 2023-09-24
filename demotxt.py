@@ -120,3 +120,22 @@ input_box = widgets.Text(placeholder='Please enter your question:')
 input_box.on_submit(on_submit)
 
 display(input_box) """
+
+from flask import Flask, request, jsonify
+
+app = Flask(__name__)
+
+# Load your existing code here (import libraries, process text, and set up ChatGPT)
+
+@app.route('/chat', methods=['POST'])
+def chat():
+    user_message = request.json.get('message')
+
+    # Process user_message and get chatbot response using your existing code
+    # Replace the following line with your logic
+    chatbot_response = response
+
+    return jsonify({'response': chatbot_response})
+
+if __name__ == '__main__':
+    app.run(debug=True)
