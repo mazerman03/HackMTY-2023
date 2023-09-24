@@ -13,7 +13,7 @@ from langchain.chains import ConversationalRetrievalChain
 os.environ["OPENAI_API_KEY"] = "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"
 
 # Load the text from your file (assuming 'fundInversiones.txt' is in the same directory)
-with open('HackMTY-2023/fundInversiones.txt', 'r', encoding='utf-8') as file:
+with open('HackMTY-2023/datatxt/fundInversiones.txt', 'r', encoding='utf-8') as file:
     text = file.read()
 
 # Create function to count tokens (Not needed for ChatGPT 3.5)
