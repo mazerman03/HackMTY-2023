@@ -2,7 +2,6 @@ import os
 import pandas as pd
 import matplotlib.pyplot as plt
 from transformers import GPT2TokenizerFast
-from langchain.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import FAISS
@@ -10,27 +9,14 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.llms import OpenAI
 from langchain.chains import ConversationalRetrievalChain
 
-os.environ["OPENAI_API_KEY"] = "{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}"
+os.environ["OPENAI_API_KEY"] = "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"
 
-# You MUST add your PDF to local files in this notebook (folder icon on left hand side of screen)
 
- # Advanced method - Split by chunk
+ #2: Save to .txt and reopen (helps prevent issues)
 
-# Step 1: Convert PDF to text
-import textract
-with open('HackMTY-2023/fundInversiones.txt', 'r', encoding='utf-8') as file:
-    # Read the contents of the file into a string
-    doc = file.read()
-
-# Step 2: Save to .txt and reopen (helps prevent issues)
-
-##with open('HackMTY-2023/fundInversiones.txt', 'w') as f:
-  ##  f.write(doc.decode('utf-8'))
-
-with open('HackMTY-2023/fundInversiones.txt', 'r', encoding='utf-8') as f:
+with open('HackMTY-2023/datatxt/ComoFunciona.txt', 'r', encoding='utf-8') as f:
     text = f.read()
 
-print(text)
 # Step 3: Create function to count tokens
 tokenizer = GPT2TokenizerFast.from_pretrained("gpt2")
 
@@ -41,25 +27,19 @@ def count_tokens(text: str) -> int:
 text_splitter = RecursiveCharacterTextSplitter(
     # Set a really small chunk size, just to show.
     chunk_size = 512,
-    chunk_overlap  = 12,
+    chunk_overlap  = 24,
     length_function = count_tokens,
 )
-try:
-    chunks = text_splitter.create_documents([text])
-    print("Number of chunks:", len(chunks))
-    if len(chunks) > 0:
-        print("Number of tokens in the first chunk:", len(tokenizer.encode(chunks[0].page_content)))
-    else:
-        print("No chunks created.")
-except IndexError as e:
-    print("An IndexError occurred:", e)
+
+chunks = text_splitter.create_documents([text])
+ 
 
 # Result is many LangChain 'Documents' around 500 tokens or less (Recursive splitter sometimes allows more tokens to retain context)
-##type(chunks[0]) 
+type(chunks[0]) 
 
 # Quick data visualization to ensure chunking was successful
 
-# Create a list of token counts
+""" # Create a list of token counts
 token_counts = [count_tokens(chunk.page_content) for chunk in chunks]
 
 # Create a DataFrame from the token counts
@@ -69,7 +49,7 @@ df = pd.DataFrame({'Token Count': token_counts})
 df.hist(bins=40, )
 
 # Show the plot
-plt.show()
+plt.show() """
 
 # Get embedding model
 embeddings = OpenAIEmbeddings()
@@ -79,6 +59,7 @@ db = FAISS.from_documents(chunks, embeddings)
 
 # Check similarity search is working
 query = "¿Qué es una buena inversión?"
+print("User: ", query, "\n")
 docs = db.similarity_search(query)
 docs[0]
 
@@ -89,8 +70,8 @@ chain = load_qa_chain(OpenAI(temperature=0), chain_type="stuff")
 query = "¿Qué es una buena inversión?"
 docs = db.similarity_search(query)
 
-chain.run(input_documents=docs, question=query)
-
+response = chain.run(input_documents=docs, question=query)
+print("BenIA: ",response)
 from IPython.display import display
 import ipywidgets as widgets
 
