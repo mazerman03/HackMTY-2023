@@ -1,0 +1,91 @@
+.primary-overlay {
+  background: rgba(235,0,41,255);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main-header {
+  color: rgba(235,0,41,255);
+  background: url(../img/finance1.jpg) ; /* FONDO */
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  color: #fff;
+  
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.main-header .showcase {
+  padding-top: 100px;
+}
+
+
+.active-link {
+  color: white;
+  font-weight: bold;
+}
+
+/* .section-developers {
+  position: relative;
+  background: url(../img/img2.jpg);
+  background-size: cover;
+  background-position: center;
+  border-top: #333 solid 5px;
+  border-bottom: #333 solid 5px;
+  min-height: 160px;
+}
+ */
+
+
+.hidden-chat {
+  display: none;
+}
+
+/* CSS DEL CHAT */
+.chat-fixed {
+  position: fixed;
+  right: 20px; /* Ajusta la posición horizontal */
+  bottom: 75px; /* Ajusta la posición vertical*/
+  z-index: 9999;
+}
+
+
+.carousel-item p {
+  font-size: 20px !important;
+}
+
+.tabs .indicator {
+  background-color: #fd0404 !important;
+}
+
+.btn-extend {
+  display: block;
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  .section-developers,
+  .section-podcast {
+    min-height: 240px;
+  }
+}
+
+.loader{
+  position: absolute;
+  top: 40%;
+  left: 47%;
+}
+
+.img-size{
+  height: 212px;
+  width: 378px;
+}
